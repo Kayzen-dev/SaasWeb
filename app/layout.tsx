@@ -6,10 +6,14 @@ import "./globals.css"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "NameForge - AI-Powered Startup Namer",
+  title: "NameForge AI - AI-Powered Startup Namer",
   description:
-    "Generate catchy, brandable names and taglines instantly using AI. Perfect for startups, creators, eCommerce, and mobile apps.",
-    generator: 'v0.dev'
+    "Generate catchy, brandable names and taglines instantly using advanced AI. Perfect for startups, creators, eCommerce, and mobile apps. Try it free today!",
+  keywords: "AI naming, startup names, brand names, business names, domain names, AI generator",
+  authors: [{ name: "Kayzen" }],
+  creator: "Kayzen",
+  publisher: "NameForge AI",
+  generator: "v0.dev",
 }
 
 export default function RootLayout({
